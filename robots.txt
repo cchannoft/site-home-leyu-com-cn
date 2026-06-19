@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cchannoft.github.io/site-home-leyu-com-cn/sitemap.xml
