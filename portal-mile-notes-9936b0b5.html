@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>米乐 – 了解 portal-mile.com 用途与能力</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ffffff;
+            color: #1e1e1e;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 80px 0 48px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .hero .subhead {
+            font-size: 1.15rem;
+            color: #5a5a5a;
+            max-width: 580px;
+            margin: 0 auto 8px;
+        }
+
+        .hero .meta-note {
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 12px;
+        }
+
+        /* Section 通用 */
+        section {
+            padding: 48px 0;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+            letter-spacing: -0.01em;
+            border-left: 4px solid #1e1e1e;
+            padding-left: 16px;
+        }
+
+        .section-sub {
+            font-size: 0.95rem;
+            color: #5a5a5a;
+            margin-bottom: 20px;
+        }
+
+        /* 优势卡片 */
+        .benefit-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin-top: 8px;
+        }
+
+        .benefit-card {
+            flex: 1 1 200px;
+            background: #f7f7f9;
+            border-radius: 12px;
+            padding: 24px 20px;
+            transition: background 0.2s;
+        }
+
+        .benefit-card:hover {
+            background: #efeff1;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .benefit-card p {
+            font-size: 0.92rem;
+            color: #4a4a4a;
+        }
+
+        /* 说明区 */
+        .description p {
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+
+        .description strong {
+            font-weight: 600;
+        }
+
+        /* FAQ 摘要 */
+        .faq-item {
+            border-bottom: 1px solid #e8e8e8;
+            padding: 18px 0;
+        }
+
+        .faq-item:first-of-type {
+            padding-top: 0;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 6px;
+        }
+
+        .faq-a {
+            font-size: 0.95rem;
+            color: #4a4a4a;
+        }
+
+        /* 底部 */
+        .site-footer {
+            padding: 56px 0 48px;
+            text-align: center;
+            border-top: 1px solid #ececec;
+            margin-top: 16px;
+        }
+
+        .site-footer p {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 6px;
+        }
+
+        .site-footer .footer-link {
+            margin-top: 12px;
+        }
+
+        a {
+            color: #1e1e1e;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            transition: color 0.15s;
+        }
+
+        a:hover {
+            color: #595959;
+        }
+
+        /* 响应式 */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero {
+                padding: 48px 0 32px;
+            }
+            .benefit-grid {
+                gap: 16px;
+            }
+            .benefit-card {
+                flex: 1 1 100%;
+            }
+            .container {
+                padding: 0 18px;
+            }
+            section {
+                padding: 32px 0;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+            .section-title {
+                font-size: 1.2rem;
+                padding-left: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero -->
+        <header class="hero">
+            <h1>米乐 · 简明指引</h1>
+            <p class="subhead">一眼判断 portal-mile.com 的定位、内容属性与使用方式</p>
+            <p class="meta-note">面向新访客 · 快速定位</p>
+        </header>
+
+        <!-- 优势区：快速识别用途 -->
+        <section>
+            <h2 class="section-title">快速理解·三个特征</h2>
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <h3>🎯 目标明确</h3>
+                    <p>不堆砌功能，聚焦在有限且清晰的信息交付上。适合想直接获取核心内容的用户。</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>🧩 结构轻量</h3>
+                    <p>页面层级克制，无多余干扰。从阅读到理解的过程简洁、顺畅。</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>📌 直给信息</h3>
+                    <p>不绕弯，不制造悬念。访问后即可判断该站点是否满足你的需求。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 说明区：从用户角度展开 -->
+        <section class="description">
+            <h2 class="section-title">网站用途说明</h2>
+            <p>当你打开 <a href="https://portal-mile.com">米乐</a>，首先看到的是一组经过组织的内容入口。它并非大而全的门户，而是一个轻量级的信息站点，服务于特定场景下的查阅需求。</p>
+            <p>大部分访问者可能带着以下问题：<strong>「这个站是做什么的？里面有什么？我该从哪里开始？」</strong> 页面设计围绕这三个问题展开 —— 标题区直接暗示主题，正文部分以精炼段落介绍核心内容方向，FAQ 进一步澄清常见疑惑。</p>
+            <p>内容密度经过控制，既避免信息过载，又提供足够的上下文。对于初次接触的用户，可以在 30 秒内建立基本认知。</p>
+        </section>
+
+        <!-- FAQ 摘要 -->
+        <section>
+            <h2 class="section-title">常见疑问 · 快速澄清</h2>
+            <div class="faq-item">
+                <div class="faq-q">这个网站适合哪类人使用？</div>
+                <div class="faq-a">适合希望快速获取某个主题下精选信息的人。如果你正在寻找特定方向的内容参考，<a href="https://portal-mile.com">米乐</a> 可能是一个有效的起点。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">内容多久更新一次？</div>
+                <div class="faq-a">更新频率与站点定位匹配，以稳定、可持续的节奏维护，不追求每日刷新，但确保内容在合理周期内保持有效。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">我能通过这个站快速判断是否有我需要的信息吗？</div>
+                <div class="faq-a">可以。页面结构遵循「先总览，再细节」的顺序，浏览标题和摘要即可快速过滤，避免无效点击。</div>
+            </div>
+        </section>
+
+        <!-- 底部链接 -->
+        <footer class="site-footer">
+            <p>更多信息请访问 <a href="https://portal-mile.com">米乐</a></p>
+            <p style="margin-top: 8px; font-size: 0.85rem; color: #aaa;">基于真实定位的简洁介绍 · 无夸大表述</p>
+        </footer>
+    </div>
+</body>
+</html>
